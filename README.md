@@ -9,11 +9,15 @@
     - `test_registration.py`
     - `test_transitions.py`
   - `locators.py`
+  - `data.py`
   - `.gitignore`
 
 #### conftest
 Содержит стартовую фикстуру для тестов в браузере Google Chrome.
 
+
+#### data
+Содержит тестовые данные пользователей
 
 #### locators
 Содержит локаторы для тестов

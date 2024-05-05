@@ -55,4 +55,7 @@ class Locators:
     PARENT_FILLINGS_SECTION_BUTTTON = (By.XPATH, '//span[@class="text text_type_main-default" and text()="Начинки"]//.')
 
     """Локаторы на странице Личного Кабинета (ЛК)"""
-    LOGOUT_BUTTON_LC = (By.XPATH, "//button[@type='button' and text()='Выход']")
+    # Кнопка выхода из аккаунта
+    LOGOUT_BUTTON_LC = (By.XPATH, '//button[@type="button" and text()="Выход"]')
+    # Кнопка профиль лк
+    PROFILE_BUTTON_LC = (By.XPATH, '//a[@aria-current="page" and text()="Профиль"]')
