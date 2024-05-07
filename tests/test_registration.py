@@ -1,7 +1,7 @@
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 from locators import Locators
-from data import create_random_user, incorrect_password_user
+from helpers import create_random_user, incorrect_password_user
 
 
 class TestBurgerRegistration:
